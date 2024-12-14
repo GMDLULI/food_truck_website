@@ -47,7 +47,7 @@ ul{
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
-#home h1 {
+#home h1 #menu-heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     margin-bottom: 15px;
