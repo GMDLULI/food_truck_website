@@ -1,0 +1,160 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap');
+
+/* Global Styles */
+body {
+    background-color: #f4ebd0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation Styles */
+nav {
+    background-color:#dbbd84;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f9f9f9;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Home Page Styles */
+#home {
+    background-image: url('/images/burger.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 100px 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#home h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#home h2 {
+    font-size: 2rem;
+}
+
+#about {
+    padding: 50px 20px;
+}
+
+/* Button Styles */
+button {
+    margin-bottom: 12px;
+    background-color:#d6ad60;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9e7e41;
+}
+
+/* Menu Page Styles */
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: #f4ebd0;
+}
+
+.menu-item {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.menu-item-content {
+    padding: 15px;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Contact Page Styles */
+#contact {
+    display: flex;
+    align-items: stretch;
+}
+
+
+.contact-image {
+    flex: 1;
+    background-image: url('/images/food_truck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+@media (max-width: 480px) {
+    .contact-image {
+        background-image: hidden;
+    }
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #122620;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
